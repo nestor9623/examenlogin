@@ -5,6 +5,8 @@
  */
 package examenlogin;
 
+import Gui.VentanaPrincipal;
+
 /**
  *
  * @author nesto
@@ -16,6 +18,9 @@ public class ExamenLogin {
      */
     public static void main(String[] args) {
         
+        //primer commit en la rama desarrollo
+        VentanaPrincipal vp = new VentanaPrincipal();
+        vp.setVisible(true);
         
     }
     
